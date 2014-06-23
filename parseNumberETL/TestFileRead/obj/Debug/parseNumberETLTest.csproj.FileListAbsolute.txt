@@ -1,0 +1,7 @@
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\obj\Debug\parseNumberETLTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\bin\Debug\TestFileRead.dll
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\bin\Debug\TestFileRead.pdb
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\bin\Debug\parseNumberETL.exe
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\bin\Debug\parseNumberETL.pdb
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\obj\Debug\TestFileRead.dll
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\obj\Debug\TestFileRead.pdb

@@ -8,7 +8,7 @@ namespace parseNumberETL
     /// <summary>
     ///  this is the basic interface to read data from files
     /// </summary>
-    interface iFileIO
+    public interface iFileIO
     {
         bool CheckExist(string filePath);
         string ReadFileLine(string filePath);

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a430aa9-4b1d-4740-b2af-c59f0a83a854" name="M@PC 2014-06-24 00:35:07" runUser="PC\M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c2526078-338b-419d-95f2-c912c15ea549">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="M_PC 2014-06-24 00_35_07">
+      <DeploymentItem filename="C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\bin\Debug\parseNumberETL.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-24T00:35:07.1296309+01:00" queuing="2014-06-24T00:35:09.5437690+01:00" start="2014-06-24T00:35:09.8337856+01:00" finish="2014-06-24T00:35:14.5850573+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCheckExist" storage="c:\users\administrator\workspace\numberparseetl\parsenumberetl\testfileread\bin\debug\testfileread.dll" id="674c46f6-3981-3b11-376f-b609ba4ad2ad">
+      <Execution id="526838b6-72d8-4278-9773-1e607ef49eb9" />
+      <TestMethod codeBase="C:/Users/Administrator/workspace/numberparseETL/parseNumberETL/TestFileRead/bin/Debug/TestFileRead.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFileRead.TestFileRead, TestFileRead, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheckExist" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="674c46f6-3981-3b11-376f-b609ba4ad2ad" executionId="526838b6-72d8-4278-9773-1e607ef49eb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="526838b6-72d8-4278-9773-1e607ef49eb9" testId="674c46f6-3981-3b11-376f-b609ba4ad2ad" testName="TestCheckExist" computerName="PC" duration="00:00:00.0680780" startTime="2014-06-24T00:35:10.0807997+01:00" endTime="2014-06-24T00:35:14.4300484+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="526838b6-72d8-4278-9773-1e607ef49eb9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

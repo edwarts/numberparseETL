@@ -2,14 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace parseNumberETL
 {
-    class Utility :iFileIO
+    public class FileIO:iFileIO
     {
         public bool CheckExist(string filePath)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (File.Exists(filePath))
+                {
+                    return true;
+                }
+            }
+            catch(Exception es)
+            {
+                return false;
+            }
+            return false;
         }
 
         public string ReadFileLine(string filePath)
