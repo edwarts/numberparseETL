@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9f993f9f-5c83-4519-9156-0eb20f97f242" name="M@PC 2014-06-24 01:21:26" runUser="PC\M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c2526078-338b-419d-95f2-c912c15ea549">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="M_PC 2014-06-24 01_21_26">
+      <DeploymentItem filename="C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\bin\Debug\parseNumberETL.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-24T01:21:26.4505990+01:00" queuing="2014-06-24T01:21:26.5406041+01:00" start="2014-06-24T01:21:26.5516047+01:00" finish="2014-06-24T01:21:27.0606338+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestReadAllNumbers" storage="c:\users\administrator\workspace\numberparseetl\parsenumberetl\testfileread\bin\debug\testfileread.dll" id="a2600fe0-5b83-5974-d400-9ad835aee1b7">
+      <Execution id="604da9e6-076a-4556-86dc-bc3c2fafe819" />
+      <TestMethod codeBase="C:/Users/Administrator/workspace/numberparseETL/parseNumberETL/TestFileRead/bin/Debug/TestFileRead.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFileRead.TestFileRead, TestFileRead, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReadAllNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a2600fe0-5b83-5974-d400-9ad835aee1b7" executionId="604da9e6-076a-4556-86dc-bc3c2fafe819" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="604da9e6-076a-4556-86dc-bc3c2fafe819" testId="a2600fe0-5b83-5974-d400-9ad835aee1b7" testName="TestReadAllNumbers" computerName="PC" duration="00:00:00.0841903" startTime="2014-06-24T01:21:26.5586051+01:00" endTime="2014-06-24T01:21:27.0366325+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="604da9e6-076a-4556-86dc-bc3c2fafe819">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1.357055324&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at TestFileRead.TestFileRead.TestReadAllNumbers() in C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestFileRead\TestFileRead.cs:line 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
