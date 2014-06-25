@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="16e22fad-a021-4be4-8d19-68454a8a749f" name="M@PC 2014-06-25 01:05:27" runUser="PC\M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25d95d92-a3da-429b-ba8b-37332bbdc706">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="M_PC 2014-06-25 01_05_27" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-25T01:05:27.7765633+01:00" queuing="2014-06-25T01:05:27.9175713+01:00" start="2014-06-25T01:05:27.9295720+01:00" finish="2014-06-25T01:05:28.4676028+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestGetSD" storage="c:\users\administrator\workspace\numberparseetl\parsenumberetl\testmath\bin\debug\testmath.dll" id="a2fb88cd-1d65-a4be-de56-b9ec4b6055be">
+      <Execution id="2d38c809-dcb2-477f-b861-0445e8d0a662" />
+      <TestMethod codeBase="C:/Users/Administrator/workspace/numberparseETL/parseNumberETL/TestMath/bin/Debug/TestMath.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestMath.MathTest, TestMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetSD" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a2fb88cd-1d65-a4be-de56-b9ec4b6055be" executionId="2d38c809-dcb2-477f-b861-0445e8d0a662" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2d38c809-dcb2-477f-b861-0445e8d0a662" testId="a2fb88cd-1d65-a4be-de56-b9ec4b6055be" testName="TestGetSD" computerName="PC" duration="00:00:00.0296842" startTime="2014-06-25T01:05:27.9445729+01:00" endTime="2014-06-25T01:05:28.4376011+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d38c809-dcb2-477f-b861-0445e8d0a662">
+    </UnitTestResult>
+  </Results>
+</TestRun>

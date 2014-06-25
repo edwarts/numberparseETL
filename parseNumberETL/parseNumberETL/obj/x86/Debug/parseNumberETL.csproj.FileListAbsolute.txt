@@ -1,0 +1,6 @@
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\obj\x86\Debug\parseNumberETL.Properties.Resources.resources
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\obj\x86\Debug\parseNumberETL.csproj.GenerateResource.Cache
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\bin\Debug\parseNumberETL.exe
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\bin\Debug\parseNumberETL.pdb
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\obj\x86\Debug\parseNumberETL.exe
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\parseNumberETL\obj\x86\Debug\parseNumberETL.pdb

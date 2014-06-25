@@ -1,0 +1,7 @@
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\bin\Debug\TestMath.dll
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\bin\Debug\TestMath.pdb
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\obj\Debug\TestMath.dll
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\obj\Debug\TestMath.pdb
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\bin\Debug\parseNumberETL.exe
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\bin\Debug\parseNumberETL.pdb
+C:\Users\Administrator\workspace\numberparseETL\parseNumberETL\TestMath\obj\Debug\TestMath.csprojResolveAssemblyReference.cache
