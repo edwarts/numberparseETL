@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa521225-121c-46a3-8598-f13a142852ba" name="M@PC 2014-06-25 01:23:11" runUser="PC\M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25d95d92-a3da-429b-ba8b-37332bbdc706">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="M_PC 2014-06-25 01_23_11" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-25T01:23:11.2953931+01:00" queuing="2014-06-25T01:23:14.6365842+01:00" start="2014-06-25T01:23:14.9386014+01:00" finish="2014-06-25T01:23:25.2191895+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestGetMean" storage="c:\users\administrator\workspace\numberparseetl\parsenumberetl\testmath\bin\debug\testmath.dll" id="6e9b59fe-e71a-eb04-8128-83cce582bb40">
+      <Execution id="7eb78a24-35e3-49b7-b7f6-1a239994a140" />
+      <TestMethod codeBase="C:/Users/Administrator/workspace/numberparseETL/parseNumberETL/TestMath/bin/Debug/TestMath.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestMath.MathTest, TestMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetMean" />
+    </UnitTest>
+    <UnitTest name="TestGetSD" storage="c:\users\administrator\workspace\numberparseetl\parsenumberetl\testmath\bin\debug\testmath.dll" id="a2fb88cd-1d65-a4be-de56-b9ec4b6055be">
+      <Execution id="d56c4341-c0d4-4956-a06e-9422cee21c00" />
+      <TestMethod codeBase="C:/Users/Administrator/workspace/numberparseETL/parseNumberETL/TestMath/bin/Debug/TestMath.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestMath.MathTest, TestMath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetSD" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6e9b59fe-e71a-eb04-8128-83cce582bb40" executionId="7eb78a24-35e3-49b7-b7f6-1a239994a140" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2fb88cd-1d65-a4be-de56-b9ec4b6055be" executionId="d56c4341-c0d4-4956-a06e-9422cee21c00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7eb78a24-35e3-49b7-b7f6-1a239994a140" testId="6e9b59fe-e71a-eb04-8128-83cce582bb40" testName="TestGetMean" computerName="PC" duration="00:00:00.4726049" startTime="2014-06-25T01:23:15.1946161+01:00" endTime="2014-06-25T01:23:24.1511284+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eb78a24-35e3-49b7-b7f6-1a239994a140">
+    </UnitTestResult>
+    <UnitTestResult executionId="d56c4341-c0d4-4956-a06e-9422cee21c00" testId="a2fb88cd-1d65-a4be-de56-b9ec4b6055be" testName="TestGetSD" computerName="PC" duration="00:00:00.0990181" startTime="2014-06-25T01:23:24.3081373+01:00" endTime="2014-06-25T01:23:24.4761470+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d56c4341-c0d4-4956-a06e-9422cee21c00">
+    </UnitTestResult>
+  </Results>
+</TestRun>
